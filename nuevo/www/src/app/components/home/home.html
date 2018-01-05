@@ -1,0 +1,31 @@
+<ons-page>
+	<ons-toolbar>
+		<div class="center">Principal</div>
+	</ons-toolbar>
+
+	<div class="page__background"></div>
+	<div class="page__content">
+		<p>Cosas que se pueden hacer, demos funcionales.</p>
+
+		<p><a href="https://onsen.io/v2/angular2.html" target="_blank"><strong>Official site with docs</strong></a></p>
+
+		<ons-list>
+			<ons-list-header>Todos</ons-list-header>
+			<ons-list-item>
+				<div class="center" (click)="push('PullHook')">Arrastrar y soltar</div>
+			</ons-list-item>
+			<ons-list-item>
+				<div class="center" (click)="push('LazyRepeat')">Escroll Infinito (lazy repeat)</div>
+			</ons-list-item>
+			<ons-list-item>
+				<div class="center" (click)="push('Splitter')"> Menú Lateral</div>
+			</ons-list-item>
+			<ons-list-item>
+				<div class="center" (click)="push('Fab')"> Botón Flotante (FAB)</div>
+			</ons-list-item>
+			<ons-list-item>
+				<div class="center" (click)="push('SpeedDial')">Boton con opciones</div>
+			</ons-list-item>
+		</ons-list>
+	</div>
+</ons-page>

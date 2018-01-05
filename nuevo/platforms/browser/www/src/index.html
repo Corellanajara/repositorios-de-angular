@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>EJEMPLO APP</title>
+    <link rel="stylesheet" href="css/onsenui.css">
+    <link rel="stylesheet" href="css/onsen-css-components.css">
+    <style>
+      p { padding: 15px; }
+      .page__background { background: white; }
+      .loading { font-size: 24px; text-align: center; margin: 200px auto 0; }
+    </style>
+    <base href="/">
+  </head>
+  <body>
+
+    <kitchen-sink>
+      <p class="loading">Cargando...</p>
+    </kitchen-sink>
+
+    <script src="polyfills.bundle.js"></script>
+    <script src="vendor.bundle.js"></script>
+    <script src="app.bundle.js"></script>
+    <script>
+      location.hash = location.hash || '/home';
+    </script>
+  </body>
+</html>
